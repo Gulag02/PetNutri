@@ -384,3 +384,82 @@ html {
         opacity: 1
     }
 }
+
+
+/* Sobre  css*/
+
+/* div principal sobre */
+.sobre{
+    width: 1024px;
+    margin:auto;
+}
+
+/* div section */
+.section{
+    display: grid;
+    grid-template-columns: 512px 512px;
+}
+
+img-area, .text-area{
+    width: 512px;
+    align-items: center;
+    display: grid;
+}
+
+.img-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+/* .img-area img{
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    transition: all .25s ease ;
+
+
+} */
+
+/* .img-area span{
+    opacity: 0;
+    position: absolute;
+    transition: all .25s ease;
+    z-index: 1;
+}
+.img-area span:hover{
+    transform: scale(1.01);
+
+} */
+
+/* .img-area img:hover{
+    filter: blur(1px) grayscale(100%)
+
+ } */
+
+ /* .img-area:hover>span{
+    opacity: 5;
+ } */
+
+ .text-area{
+    color: black;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 30px;
+
+ }
+
+ .title_sobre {
+margin: bottom 20px; 
+cursor: default;
+text-align: center;
+ }
+
+.text-area{
+    text-align: center;
+}
+
+.hr{
+    border-color: rgb(255, 92, 33);
+}
