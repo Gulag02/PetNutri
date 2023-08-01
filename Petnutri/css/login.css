@@ -1,12 +1,13 @@
 /* no site inteiro */
 * {
 	margin: 0;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Happy Monkey', cursive;
 }
 
 /* cor de fundo */
 body {
 	background-image: url('../img1/background\ principal.jpg');
+
 }
 
 /* div do prjeto de login */
